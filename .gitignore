@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# ChromaDB persistence
+core/vector_db/
+
+# PyMuPDF temporary files
+*.pdf~
+
+# Byte-compiled files
+*.py[cod]
+
+# Mistral API keys or sensitive files
+mistral_key.txt
+
+# Other
+.DS_Store
+Thumbs.db
